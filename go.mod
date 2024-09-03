@@ -7,7 +7,7 @@ require (
 	github.com/lib/pq v1.10.9
 	github.com/minetest-go/areasparser v1.0.5
 	github.com/minetest-go/colormapping v1.0.5
-	github.com/minetest-go/mapparser v0.1.9
+	github.com/minetest-go/mapparser v1.0.4
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/prometheus/client_golang v1.19.1
 	github.com/sirupsen/logrus v1.9.3
@@ -28,6 +28,7 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-sqlite3 v1.14.16 // indirect
+	github.com/minetest-go/types v1.0.7 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_model v0.5.0 // indirect
@@ -47,6 +48,6 @@ require (
 	modernc.org/token v1.1.0 // indirect
 )
 
-go 1.22
+go 1.22.4
 
-toolchain go1.22.4
+toolchain go1.23.0
