@@ -1,4 +1,4 @@
-FROM node:20.15.0 as bundle-builder
+FROM node:20.18.1 as bundle-builder
 COPY public /public
 WORKDIR /public
 RUN npm ci && npm run bundle
