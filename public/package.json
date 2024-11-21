@@ -19,6 +19,6 @@
   },
   "devDependencies": {
     "jshint": "2.13.6",
-    "rollup": "4.18.0"
+    "rollup": "4.22.4"
   }
 }
