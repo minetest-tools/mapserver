@@ -59,6 +59,10 @@ github.com/minetest-go/colormapping v1.0.5 h1:axZm0xbOz0RQEIFvZmbxr3kuvebYiG0AAA
 github.com/minetest-go/colormapping v1.0.5/go.mod h1:6UVusIQTqfWbcru5HTktWwB2BCNHUE3W0VkkRBaMfcw=
 github.com/minetest-go/mapparser v0.1.9 h1:mGjRwA2twJRyzSrYuJWvyNpEkO469K/Qun327v8rhwE=
 github.com/minetest-go/mapparser v0.1.9/go.mod h1:zE+JdqiicINR+kzZ4gS6BBh+vLVPQSwkYiEkG0A1Cys=
+github.com/minetest-go/mapparser v1.0.4 h1:JSO0JHWs6N0TB/C4cVuh58MrpO2tWV+6xdh7FYdl1hk=
+github.com/minetest-go/mapparser v1.0.4/go.mod h1:h0BJu8y5cBLOD+oe9YYyF2nRZdJlQ+cA6F8YmzZpHXM=
+github.com/minetest-go/types v1.0.7 h1:McQVnHQysqXegJbHnVl66TOS/172yi5b70sosWRCvuk=
+github.com/minetest-go/types v1.0.7/go.mod h1:QS2q8tKAiuBe2Rin880ARFt9VokYIJNZV4Z4kHAChU0=
 github.com/moby/term v0.5.0 h1:xt8Q1nalod/v7BqbG21f8mQPqH+xAaC9C3N3wfWbVP0=
 github.com/moby/term v0.5.0/go.mod h1:8FzsFHVUBGZdbDsJw/ot+X+d5HLUbvklYLJ9uGfcI3Y=
 github.com/morikuni/aec v1.0.0 h1:nP9CBfwrvYnBRgY6qfDQkygYDmYwOilePFkwzv4dU8A=
