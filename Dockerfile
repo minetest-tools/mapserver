@@ -9,7 +9,7 @@ COPY --from=bundle-builder /public/js/bundle* /data/public/js/
 WORKDIR /data
 RUN CGO_ENABLED=0 go build .
 
-FROM alpine:3.20.1
+FROM alpine:3.21.2
 COPY --from=go-builder /data/mapserver /bin/mapserver
 ENV MT_CONFIG_PATH "mapserver.json"
 ENV MT_LOGLEVEL "INFO"
