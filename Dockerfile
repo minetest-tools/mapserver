@@ -3,7 +3,7 @@ COPY public /public
 WORKDIR /public
 RUN npm ci && npm run bundle
 
-FROM golang:1.22.4 as go-builder
+FROM golang:1.23.5 as go-builder
 COPY . /data
 COPY --from=bundle-builder /public/js/bundle* /data/public/js/
 WORKDIR /data
